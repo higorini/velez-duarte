@@ -34,6 +34,8 @@
   );
   --testimonial-bg: #1a0f4f;
   --font-name: "Roboto", sans-serif;
+  --small-text-color: rgba(255, 255, 255, 0.774);
+  --icon-bg: #151e4f;
 }
 
 .light-theme {
@@ -72,8 +74,18 @@ h2 {
   color: var(--heading-color);
 }
 
+section {
+  padding: 60px 0px;
+}
+
 .container {
   width: 1140px;
   padding: 0px 15px;
   margin: auto;
+}
+
+.description {
+  color: var(--small-text-color);
+  line-height: 30px;
+  font-size: 0.9rem;
 }

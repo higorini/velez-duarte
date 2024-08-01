@@ -15,7 +15,7 @@ const nav__links = [
     display: "Serviços",
   },
   {
-    path: "#projetcs",
+    path: "#projects",
     display: "Projetos",
   },
 ];
@@ -31,8 +31,8 @@ const Header = () => {
 
           <div className="navigation">
             <ul className="menu">
-              {nav__links.map((item) => (
-                <li className="menu__item">
+              {nav__links.map((item, index) => (
+                <li className="menu__item" key={index}>
                   <a href={item.path} className="menu__link">
                     {item.display}
                   </a>

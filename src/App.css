@@ -50,3 +50,30 @@
     rgba(226, 250, 255, 1) 78%
   );
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--body-bg);
+  font-family: var(--font-name);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+h1,
+h2 {
+  color: var(--heading-color);
+}
+
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}

@@ -14,10 +14,6 @@ const counterData = [
     number: 333,
     text: "Alguma coisa mais",
   },
-  {
-    number: 1234,
-    text: "Outra coisa ainda mais",
-  },
 ];
 
 const Counter = () => {

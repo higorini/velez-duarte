@@ -29,8 +29,7 @@ const Footer = () => {
 
             <div className="small__text description">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non a
-              aspernatur enim. Quisquam officia tempore, rerum aspernatur aut
-              exercitationem saepe!
+              aspernatur enim. Quisquam officia tempore, rerum aspernatur aut!
             </div>
           </div>
 

@@ -20,7 +20,7 @@ const nav__links = [
   },
 ];
 
-const Header = () => {
+const Header = ({ theme, toggleTheme }) => {
   return (
     <header className="header">
       <div className="container">
@@ -42,8 +42,16 @@ const Header = () => {
           </div>
 
           <div className="light__mode">
-            <span>
-              <i className="ri-sun-line"></i> Modo Claro
+            <span onClick={toggleTheme}>
+              {theme === "light-theme" ? (
+                <span>
+                  <i className="ri-moon-line"></i>Escuro
+                </span>
+              ) : (
+                <span>
+                  <i className="ri-sun-line"></i>Claro
+                </span>
+              )}
             </span>
           </div>
         </div>

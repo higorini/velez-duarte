@@ -59,31 +59,31 @@ const Team = () => {
 
                 <div className="team__member-social">
                   <span>
-                    <a
-                      href={item.social.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="ri-linkedin-line"></i>
-                    </a>
+                    <i className="ri-linkedin-line">
+                      <a
+                        href={item.social.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      ></a>
+                    </i>
                   </span>
                   <span>
-                    <a
-                      href={item.social.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="ri-instagram-line"></i>
-                    </a>
+                    <i className="ri-instagram-line">
+                      <a
+                        href={item.social.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      ></a>
+                    </i>
                   </span>
                   <span>
-                    <a
-                      href={item.social.whatsapp}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="ri-whatsapp-line"></i>
-                    </a>
+                    <i className="ri-whatsapp-line">
+                      <a
+                        href={item.social.whatsapp}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      ></a>
+                    </i>
                   </span>
                 </div>
               </div>

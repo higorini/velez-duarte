@@ -40,6 +40,9 @@
 
 .light-theme {
   --body-bg: #fff;
+  --link-color: #000;
+  --card-bg: #fff;
+  --team-card-bg: #fff;
   --heading-color: #0c123d;
   --btn-primary-bg: #816aff;
   --primary-color: #816aff;
@@ -51,6 +54,7 @@
     rgba(193, 243, 255, 1) 50%,
     rgba(226, 250, 255, 1) 78%
   );
+  --small-text-color: rgba(0, 0, 0, 0.774);
 }
 
 * {
@@ -96,4 +100,23 @@ section {
   color: var(--primary-color);
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.light-theme .counter {
+  background: var(--counter-section-bg);
+}
+
+.light-theme .secondary__btn {
+  border: 1px solid var(--primary-color);
+  color: #090238;
+  font-weight: 600;
+  background: transparent;
+}
+
+.light-theme a {
+  font-weight: 500;
+}
+
+.light-theme .team__img {
+  background: #ddd;
 }
